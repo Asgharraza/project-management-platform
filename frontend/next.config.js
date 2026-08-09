@@ -4,7 +4,7 @@ const nextConfig = {
   transpilePackages: ['lucide-react'],
   output: 'standalone',
   
-  // ✅ Add empty turbopack config to resolve the error
+  // ✅ Add empty turbopack config to fix the error
   turbopack: {},
   
   async rewrites() {
@@ -17,8 +17,6 @@ const nextConfig = {
       },
     ];
   },
-
-  
 };
 
 module.exports = nextConfig;
